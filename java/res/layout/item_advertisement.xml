@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/fragment_main_ads_height" android:foreground="@drawable/selector_semitransparent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/advertisement_image" android:layout_width="fill_parent" android:layout_height="@dimen/fragment_main_ads_height" android:src="@drawable/placeholder_banner" android:scaleType="centerCrop" />
+</FrameLayout>
