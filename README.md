@@ -1,4 +1,4 @@
-This reverse engineered source code is hosted here for educational purposes only. 
+This source code is hosted here for educational purposes only. 
 
 Project Structure
 
