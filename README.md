@@ -1,3 +1,5 @@
+This reverse engineered source code is hosted here for educational purposes only. 
+
 Project Structure
 
 * java/ - APK decompiled to Java. Not guaranteed to be buildable. 
