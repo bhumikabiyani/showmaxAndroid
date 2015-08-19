@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/selector_semitransparent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:roboto="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.showmax.app.ui.widget.AssetView android:id="@id/item_list_episode_asset_cover" android:padding="@dimen/twoway_spacing" android:layout_width="@dimen/item_episode_list_width" android:layout_height="@dimen/item_episode_list_height" android:layout_alignParentLeft="true" app:hasForeground="false" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/margin_regular_normal" android:paddingTop="@dimen/margin_regular_smallest" android:paddingRight="@dimen/margin_regular_normal" android:paddingBottom="@dimen/margin_regular_smallest" android:layout_width="fill_parent" android:layout_height="@dimen/item_episode_list_height" android:layout_toRightOf="@id/item_list_episode_asset_cover" android:layout_alignParentRight="true">
+            <com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/item_episode_list_episode_number_text_size" android:textColor="@color/theme_showmax_accent" android:id="@id/item_list_episode_asset_episode_number" android:layout_width="fill_parent" android:layout_height="wrap_content" app:typeface="medium" />
+            <com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/item_episode_list_episode_title_text_size" android:textColor="@color/icflix_text_lightest" android:ellipsize="end" android:id="@id/item_list_episode_asset_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" app:typeface="light" />
+            <com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/item_episode_list_episode_description_text_size" android:textColor="@color/icflix_text_normal" android:ellipsize="end" android:id="@id/item_list_episode_asset_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="@integer/item_episode_list_episode_description_text_max_lines" app:typeface="light" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

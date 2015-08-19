@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="grid_columns_episodes">1</integer>
+    <integer name="grid_columns_movies">5</integer>
+    <integer name="grid_columns_my_flix">1</integer>
+    <integer name="grid_columns_search">1</integer>
+    <integer name="grid_columns_tv_shows">5</integer>
+</resources>

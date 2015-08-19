@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.showmax.app.ui.widget.ParallaxScrollView android:id="@id/fragment_main_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" roboto:alphaFactor="1.2" roboto:backgroundView="@id/fragment_main_ads_container" roboto:scrollFactor="0.4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:roboto="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:background="@color/theme_showmax_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.showmax.app.ui.widget.ThreeViewPager android:id="@id/f_main_threeviewpager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/fragment_main_ads_height" android:layout_alignParentTop="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/f_main_asset_tiles_container" android:background="@color/icflix_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/f_main_threeviewpager" />
+        <com.showmax.app.ui.widget.RefreshProgressBar android:id="@id/f_main_progressbar" android:paddingBottom="?android:actionBarSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</com.showmax.app.ui.widget.ParallaxScrollView>

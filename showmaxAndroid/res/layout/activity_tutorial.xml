@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:paddingTop="@dimen/space_big" android:paddingBottom="@dimen/space_big" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.view.ViewPager android:id="@id/activity_tutorial_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/activity_tutorial_viewpager_indicator" android:layout_alignParentTop="true" android:overScrollMode="never" />
+    <com.viewpagerindicator.CirclePageIndicator android:id="@id/activity_tutorial_viewpager_indicator" android:padding="@dimen/margin_regular_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/activity_tutorial_btn_skip" android:layout_centerHorizontal="true" app:fillColor="@color/theme_showmax_accent" app:radius="3.0dip" />
+    <com.eevoskos.robotoviews.widget.RobotoButton android:textColor="@color/selector_color_accent_primary" android:id="@id/activity_tutorial_btn_skip" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tutorial_btn_skip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAllCaps="true" />
+</RelativeLayout>

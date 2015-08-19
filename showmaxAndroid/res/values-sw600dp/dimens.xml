@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a_splash_activity_padding_bottom">64.0dip</dimen>
+    <dimen name="a_splash_activity_padding_horizontal">64.0dip</dimen>
+    <dimen name="a_splash_activity_padding_top">64.0dip</dimen>
+    <dimen name="a_splash_video_view_height">253.0dip</dimen>
+    <dimen name="a_splash_video_view_width">450.0dip</dimen>
+    <dimen name="abc_action_bar_content_inset_material">24.0dip</dimen>
+    <dimen name="abc_action_bar_default_height_material">64.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_material">4.0dip</dimen>
+    <dimen name="abc_action_bar_navigation_padding_start_material">8.0dip</dimen>
+    <dimen name="abc_action_bar_overflow_padding_end_material">18.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">580.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20.0dip</dimen>
+    <dimen name="fragment_asset_detail_recommended_container_min_height">382.0dip</dimen>
+    <dimen name="fragment_main_ads_height">190.0dip</dimen>
+    <dimen name="fragment_tv_series_detail_cover_landscape_height">240.0dip</dimen>
+    <item type="dimen" name="item_advertisement_weight">0.5</item>
+    <dimen name="item_episode_list_height">126.0dip</dimen>
+    <dimen name="item_list_my_flix_description_text_size">13.0sp</dimen>
+    <dimen name="item_list_my_flix_height">190.0dip</dimen>
+    <dimen name="item_list_my_flix_label_text_size">14.0sp</dimen>
+    <dimen name="item_list_my_flix_title_text_size">20.0sp</dimen>
+    <dimen name="item_list_my_flix_width">126.0dip</dimen>
+    <dimen name="item_search_list_height">190.0dip</dimen>
+    <dimen name="item_search_list_width">126.0dip</dimen>
+    <dimen name="pc_middle_container_paused_padding">180.0dip</dimen>
+    <dimen name="pc_middle_container_scrollview_padding_top">100.0dip</dimen>
+    <dimen name="pc_top_container_volume_progressbar_width">200.0dip</dimen>
+    <dimen name="sliding_menu_width">360.0dip</dimen>
+    <dimen name="snackbar_action_inline_max_width">0.0dip</dimen>
+    <dimen name="snackbar_background_corner_radius">2.0dip</dimen>
+    <dimen name="snackbar_extra_spacing_horizontal">24.0dip</dimen>
+    <dimen name="snackbar_max_width">576.0dip</dimen>
+    <dimen name="snackbar_min_width">320.0dip</dimen>
+    <item type="dimen" name="snackbar_padding_vertical_2lines">@dimen/snackbar_padding_vertical</item>
+    <dimen name="tab_min_width">160.0dip</dimen>
+    <dimen name="videoview_middle_container_description_max_width">496.0dip</dimen>
+    <dimen name="videoview_middle_container_description_text_size">16.0sp</dimen>
+    <dimen name="videoview_middle_container_lenght_text_size">20.0sp</dimen>
+    <dimen name="videoview_middle_container_padding_bottom">32.0dip</dimen>
+    <dimen name="videoview_middle_container_padding_left">64.0dip</dimen>
+    <dimen name="videoview_middle_container_padding_right">64.0dip</dimen>
+    <dimen name="videoview_middle_container_padding_top">84.0dip</dimen>
+    <dimen name="videoview_middle_container_paused_text_size">20.0sp</dimen>
+    <dimen name="videoview_middle_container_title_text_size">30.0sp</dimen>
+    <dimen name="videoview_middle_container_year_text_size">20.0sp</dimen>
+    <dimen name="videoview_middle_container_you_are_watching_text_size">20.0sp</dimen>
+    <dimen name="view_asset_cover_height_grid_portrait">190.0dip</dimen>
+    <dimen name="view_asset_cover_height_twoway_portrait">190.0dip</dimen>
+    <dimen name="view_asset_cover_width_twoway_portrait">126.0dip</dimen>
+    <item type="dimen" name="view_asset_vod_model_letter_spacing">10.0</item>
+    <dimen name="fragment_asset_detail_description_horizontal_margin_tablet">161.0dip</dimen>
+    <dimen name="fragment_asset_detail_divider_horizontal_margin_tablet">18.0dip</dimen>
+    <dimen name="fragment_asset_detail_horizontal_margin_tablet">42.0dip</dimen>
+    <dimen name="fragment_asset_detail_trailer_padding_drawable">8.0dip</dimen>
+    <dimen name="fragment_asset_detail_trailer_padding_horizontal">18.0dip</dimen>
+    <dimen name="fragment_asset_detail_trailer_padding_vertical">8.0dip</dimen>
+    <dimen name="fragment_asset_detail_trailer_text_size">15.0sp</dimen>
+    <dimen name="fragment_tv_series_tab_indicator_horizontal_padding_tablet">28.0dip</dimen>
+    <dimen name="fragment_tv_series_tab_indicator_width_tablet">400.0dip</dimen>
+    <dimen name="item_episode_list_width">190.0dip</dimen>
+</resources>

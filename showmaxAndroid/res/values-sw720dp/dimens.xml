@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="videoview_middle_container_description_max_width">564.0dip</dimen>
+    <dimen name="videoview_middle_container_description_text_size">22.0sp</dimen>
+    <dimen name="videoview_middle_container_lenght_text_size">28.0sp</dimen>
+    <dimen name="videoview_middle_container_padding_bottom">32.0dip</dimen>
+    <dimen name="videoview_middle_container_padding_left">72.0dip</dimen>
+    <dimen name="videoview_middle_container_padding_right">72.0dip</dimen>
+    <dimen name="videoview_middle_container_padding_top">108.0dip</dimen>
+    <dimen name="videoview_middle_container_paused_text_size">28.0sp</dimen>
+    <dimen name="videoview_middle_container_title_text_size">40.0sp</dimen>
+    <dimen name="videoview_middle_container_year_text_size">28.0sp</dimen>
+    <dimen name="videoview_middle_container_you_are_watching_text_size">28.0sp</dimen>
+    <dimen name="videoview_subtitles_margin_bottom">36.0dip</dimen>
+    <dimen name="videoview_subtitles_text_size">26.0sp</dimen>
+</resources>

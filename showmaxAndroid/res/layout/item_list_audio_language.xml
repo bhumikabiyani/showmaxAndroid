@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/dialogs_list_item_text_size" android:gravity="center_vertical" android:id="@id/item_list_audio_language" android:paddingLeft="@dimen/dialogs_list_item_horizontal_padding" android:paddingRight="@dimen/dialogs_list_item_horizontal_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/dialogs_list_item_min_height" roboto:typeface="light"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:roboto="http://schemas.android.com/apk/res-auto" />

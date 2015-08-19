@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a_splash_video_view_height">202.0dip</dimen>
+    <dimen name="a_splash_video_view_width">360.0dip</dimen>
+    <dimen name="fragment_asset_detail_cover_landscape_height">240.0dip</dimen>
+    <dimen name="fragment_asset_detail_cover_portrait_height">180.0dip</dimen>
+    <dimen name="fragment_asset_detail_cover_portrait_width">118.0dip</dimen>
+    <dimen name="fragment_asset_detail_recommended_container_min_height">727.0dip</dimen>
+    <dimen name="fragment_main_ads_height">241.0dip</dimen>
+    <dimen name="fragment_tv_series_detail_cover_landscape_height">200.0dip</dimen>
+    <dimen name="item_episode_list_height">143.0dip</dimen>
+    <dimen name="item_list_my_flix_description_text_size">14.0sp</dimen>
+    <dimen name="item_list_my_flix_height">241.0dip</dimen>
+    <dimen name="item_list_my_flix_label_text_size">15.0sp</dimen>
+    <dimen name="item_list_my_flix_title_text_size">26.0sp</dimen>
+    <dimen name="item_list_my_flix_width">158.0dip</dimen>
+    <dimen name="item_search_list_height">241.0dip</dimen>
+    <dimen name="item_search_list_width">158.0dip</dimen>
+    <dimen name="pc_middle_container_paused_padding">100.0dip</dimen>
+    <dimen name="pc_middle_container_scrollview_padding_top">48.0dip</dimen>
+    <dimen name="sliding_menu_width">360.0dip</dimen>
+    <dimen name="videoview_subtitles_text_size">24.0sp</dimen>
+    <dimen name="view_asset_cover_height_grid_portrait">241.0dip</dimen>
+    <dimen name="view_asset_cover_height_twoway_portrait">241.0dip</dimen>
+    <dimen name="view_asset_cover_width_twoway_portrait">158.0dip</dimen>
+    <item type="dimen" name="view_asset_vod_model_letter_spacing">7.0</item>
+    <dimen name="view_rtl_action_bar_search_view_max_width">375.0dip</dimen>
+</resources>

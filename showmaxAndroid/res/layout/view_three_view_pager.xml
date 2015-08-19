@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:roboto="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/view_three_view_pager_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+        <android.support.v4.view.ViewPager android:id="@id/view_three_view_pager_viewpager" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@dimen/item_advertisement_weight" android:overScrollMode="never" />
+    </LinearLayout>
+    <com.viewpagerindicator.CirclePageIndicator android:id="@id/view_three_view_pager_indicator" android:padding="@dimen/margin_regular_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:fillColor="@color/circle_indicator_fill" app:radius="3.0dip" />
+    <com.showmax.app.ui.widget.RefreshProgressBar android:id="@id/view_three_view_pager_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</merge>

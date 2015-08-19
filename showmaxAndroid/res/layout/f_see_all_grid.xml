@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/theme_showmax_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.showmax.app.ui.widget.RefreshProgressBar android:id="@id/f_see_all_grid_progressbar" android:paddingBottom="?android:actionBarSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <GridView android:gravity="center_horizontal" android:id="@id/f_see_all_grid_gridview" android:paddingLeft="@dimen/grid_spacing" android:paddingRight="@dimen/grid_spacing" android:paddingBottom="@dimen/grid_spacing" android:visibility="gone" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="@dimen/grid_spacing" android:verticalSpacing="@dimen/grid_spacing" android:numColumns="@integer/grid_columns_movies" android:overScrollMode="never" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/selector_semitransparent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:roboto="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.showmax.app.ui.widget.AssetView android:id="@id/item_list_search_asset_cover" android:padding="@dimen/twoway_spacing" android:layout_width="@dimen/item_search_list_width" android:layout_height="@dimen/item_search_list_height" app:hasForeground="false" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/margin_regular_normal" android:paddingTop="@dimen/margin_regular_smallest" android:paddingRight="@dimen/margin_regular_normal" android:paddingBottom="@dimen/margin_regular_smallest" android:layout_width="fill_parent" android:layout_height="@dimen/item_search_list_height">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/item_search_list_section_type_text_size" android:textColor="@color/theme_showmax_accent" android:id="@id/item_list_search_asset_section" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_regular_small" app:typeface="medium" />
+                <ImageView android:id="@id/item_list_search_divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_regular_small" android:src="@drawable/triangular_divider" />
+                <com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/item_search_list_section_type_text_size" android:textColor="@color/theme_showmax_accent" android:id="@id/item_list_search_asset_type" android:layout_width="wrap_content" android:layout_height="wrap_content" app:typeface="medium" />
+            </LinearLayout>
+            <com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/item_search_list_title_text_size" android:textColor="@color/icflix_text_lightest" android:ellipsize="end" android:id="@id/item_list_search_asset_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" app:typeface="light" />
+            <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:shrinkColumns="1">
+                <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/item_search_list_languages_text_size" android:textColor="@color/icflix_text_dark" android:layout_marginRight="@dimen/margin_regular_small" android:text="@string/item_list_search_asset_languages" android:textAllCaps="true" app:typeface="bold" />
+                    <com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/item_search_list_languages_text_size" android:textColor="@color/icflix_text_light" android:id="@id/item_list_search_asset_audio_languages" app:typeface="light" />
+                </TableRow>
+                <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/item_search_list_languages_text_size" android:textColor="@color/icflix_text_dark" android:layout_marginRight="@dimen/margin_regular_small" android:text="@string/item_list_search_asset_subtitles" android:textAllCaps="true" app:typeface="bold" />
+                    <com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/item_search_list_languages_text_size" android:textColor="@color/icflix_text_light" android:id="@id/item_list_search_asset_subtitles_languages" app:typeface="light" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.mautilus.lib.videoview.ui.VideoSurface android:layout_gravity="center" android:id="@id/view_videoview_video_surface" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true" />
+    </FrameLayout>
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/view_videoview_message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar android:layout_gravity="center" android:id="@id/view_videoview_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+    <TextView android:textSize="@dimen/videoview_subtitles_text_size" android:textColor="@color/white" android:gravity="bottom|center" android:layout_gravity="center" android:id="@id/view_videoview_subtitles" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/videoview_subtitles_margin_bottom" />
+    <View android:id="@id/view_videoview_click_area_dummy" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.mautilus.lib.videoview.ui.PlayerController android:id="@id/view_videoview_player_controller" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</merge>

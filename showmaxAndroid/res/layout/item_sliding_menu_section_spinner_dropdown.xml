@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="14.0sp" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/item_sliding_menu_section_spinner_section" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:singleLine="true" roboto:typeface="medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:roboto="http://schemas.android.com/apk/res-auto" />

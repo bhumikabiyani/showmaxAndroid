@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/semitransparent_darker" android:padding="@dimen/videoview_common_margin_small" android:layout_width="fill_parent" android:layout_height="@dimen/videoview_top_container_height" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/top_container_icon_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6">
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_ab_back_holo_dark_am" android:scaleType="centerInside" />
+        <ImageView android:id="@id/top_container_icon" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_launcher" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/videoview_common_text_size_normal" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/top_container_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/videoview_common_margin_large" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.4">
+        <Button android:id="@id/top_container_subtitles" android:background="@drawable/ic_menu_start_conversation" android:visibility="gone" android:layout_width="@dimen/videoview_top_container_btn_size" android:layout_height="@dimen/videoview_top_container_btn_size" android:layout_marginRight="@dimen/videoview_common_margin_normal" />
+        <ToggleButton android:id="@id/top_container_volume_mute" android:background="@drawable/player_volume_toggle_btn" android:visibility="gone" android:layout_width="@dimen/videoview_top_container_btn_size" android:layout_height="@dimen/videoview_top_container_btn_size" android:layout_marginRight="@dimen/videoview_common_margin_normal" android:textOn="" android:textOff="" />
+        <SeekBar android:id="@id/top_container_volume_seekBar" android:paddingLeft="@dimen/videoview_common_margin_xlarge" android:paddingRight="@dimen/videoview_common_margin_xlarge" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

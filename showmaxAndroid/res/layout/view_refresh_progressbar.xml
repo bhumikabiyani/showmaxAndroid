@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:roboto="http://schemas.android.com/apk/res-auto">
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar android:layout_gravity="center" android:id="@id/view_refresh_progressbar_progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/view_refresh_progressbar_refresh" android:background="?android:selectableItemBackground" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_refresh" />
+        <com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/view_refresh_progressbar_message_font_size" android:textColor="@color/icflix_text_normal" android:gravity="center" android:layout_gravity="center" android:id="@id/view_refresh_progressbar_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/view_refresh_progressbar_horizontal_margin" android:layout_marginTop="@dimen/margin_regular_normal" android:layout_marginRight="@dimen/view_refresh_progressbar_horizontal_margin" android:lineSpacingMultiplier="1.3" roboto:typeface="light" />
+    </LinearLayout>
+</merge>

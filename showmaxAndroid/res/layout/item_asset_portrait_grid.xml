@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.showmax.app.ui.widget.AssetView android:id="@id/item_asset" android:layout_width="fill_parent" android:layout_height="@dimen/view_asset_cover_height_grid_portrait" app:hasForeground="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

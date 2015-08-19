@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/sliding_menu_item_text_size" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/item_sliding_menu_section_spinner_section" android:paddingLeft="@dimen/sliding_menu_item_padding_horizontal" android:paddingRight="@dimen/sliding_menu_item_padding_horizontal" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" roboto:typeface="medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:roboto="http://schemas.android.com/apk/res-auto" />

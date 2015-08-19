@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/theme_showmax_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.showmax.app.ui.widget.RefreshProgressBar android:id="@id/f_assets_grid_progressbar" android:paddingBottom="?android:actionBarSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <android.support.v7.widget.RecyclerView android:id="@id/f_assets_grid_recyclerview" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

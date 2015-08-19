@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="placeholder_banner">@drawable/placeholder_banner_tablet</item>
+    <item type="drawable" name="placeholder_movie_detail_banner">@drawable/placeholder_detail_tablet</item>
+    <item type="drawable" name="placeholder_tv_series_detail_banner">@drawable/placeholder_detail_tablet</item>
+</resources>

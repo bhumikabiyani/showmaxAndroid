@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:roboto="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/view_play_button_play" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_play" android:scaleType="centerInside" />
+    <RelativeLayout android:id="@id/view_play_button_purchase_container" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/view_play_button_purchase_img" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_purchase" android:scaleType="centerInside" />
+        <com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/view_play_button_play_purchase_price_text_size" android:textColor="@color/icflix_text_lightest" android:id="@id/view_play_button_purchase_text" android:paddingTop="@dimen/margin_regular_uber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8.00 USD" android:layout_centerInParent="true" roboto:typeface="bold" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/view_play_button_purchased_container" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/view_play_button_purchased_img" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_play_purchased" android:scaleType="centerInside" />
+        <RelativeLayout android:paddingLeft="@dimen/view_play_button_play_purchased_time_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/view_play_button_play_purchased_time_text_size" android:textColor="@color/view_play_button_remaining_text_color" android:id="@id/view_play_button_purchased_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="14h" android:shadowColor="@color/view_play_button_remaining_text_shadow" android:shadowDx="2.0" android:shadowDy="1.0" android:shadowRadius="2.0" roboto:typeface="bold" />
+            <com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/view_play_button_play_purchased_remaining_text_size" android:textColor="@color/view_play_button_remaining_text_color" android:id="@id/view_play_button_purchased_remaining_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_play_button_remaining" android:shadowColor="@color/view_play_button_remaining_text_shadow" android:shadowDx="2.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_below="@id/view_play_button_purchased_time_text" roboto:typeface="medium" />
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

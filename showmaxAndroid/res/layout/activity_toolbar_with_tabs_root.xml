@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@id/activity_toolbar_width_tabs_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:id="@id/activity_toolbar_root_app_bar_layout" android:background="?colorPrimary" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways|scroll">
+            <android.support.v7.widget.Toolbar android:id="@id/activity_toolbar_root_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+                <ImageView android:layout_gravity="center" android:id="@id/activity_toolbar_root_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo" android:contentDescription="@string/app_name" />
+                <View android:id="@id/activity_toolbar_root_dummy_focusable" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+                <com.showmax.app.ui.widget.SearchView android:textColor="@color/white" android:id="@id/activity_toolbar_root_searchview" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/cursor_color" />
+            </android.support.v7.widget.Toolbar>
+            <FrameLayout android:id="@id/activity_toolbar_root_debug_strip" android:background="@drawable/debug_strip_repeat_x" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <android.support.design.widget.TabLayout android:id="@id/activity_toolbar_root_tabs" android:paddingLeft="@dimen/space_normal" android:paddingRight="@dimen/space_normal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabMode="scrollable" app:tabGravity="fill" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout android:id="@id/activity_toolbar_root_content" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

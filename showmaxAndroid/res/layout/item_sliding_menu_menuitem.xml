@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.showmax.app.ui.widget.CheckableLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/selector_side_menu" android:paddingLeft="@dimen/sliding_menu_item_padding_horizontal" android:paddingRight="@dimen/sliding_menu_item_padding_horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/sliding_menu_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:roboto="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/sliding_menu_group_icon" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/sliding_menu_item_space_between_icon_and_text" android:scaleType="centerCrop" />
+    <com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/sliding_menu_item_text_size" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/sliding_menu_group_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" roboto:typeface="medium" />
+</com.showmax.app.ui.widget.CheckableLinearLayout>

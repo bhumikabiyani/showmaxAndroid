@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="fragment_asset_detail_recommended_count">16</integer>
+    <integer name="grid_columns_episodes">3</integer>
+    <integer name="grid_columns_movies">8</integer>
+    <integer name="grid_columns_my_flix">3</integer>
+    <integer name="grid_columns_search">3</integer>
+    <integer name="grid_columns_tv_shows">8</integer>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:roboto="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/view_asset_img_container" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/selector_semitransparent">
+        <ImageView android:id="@id/view_asset_img" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <com.showmax.app.ui.widget.LetterSpacingRobotoTextView android:textSize="@dimen/view_asset_vod_model_text_size" android:textColor="@color/icflix_text_lightest" android:gravity="center" android:id="@id/view_asset_vod_model_bottom" android:padding="@dimen/view_asset_vod_model_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/view_asset_img_container" roboto:typeface="bold" />
+</merge>

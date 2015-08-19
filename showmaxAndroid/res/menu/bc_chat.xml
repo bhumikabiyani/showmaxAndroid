@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/bc_end_chat" android:title="@string/api_chat_end" android:showAsAction="never" />
+    <item android:id="@id/bc_email_transcript" android:title="@string/api_chat_email_transcript" android:showAsAction="never" />
+</menu>

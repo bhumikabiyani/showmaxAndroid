@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_search" android:id="@id/action_search" android:title="@string/action_search" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_action_sort" android:id="@id/action_sort" android:title="@string/action_sort" app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@id/action_sort_by_date_newest" android:title="@string/action_sort_by_date_newest" />
+                <item android:id="@id/action_sort_by_date_oldest" android:title="@string/action_sort_by_date_oldest" />
+                <item android:id="@id/action_sort_by_name_asc" android:title="@string/action_sort_by_name_asc" />
+                <item android:id="@id/action_sort_by_name_desc" android:title="@string/action_sort_by_name_desc" />
+            </group>
+        </menu>
+    </item>
+</menu>

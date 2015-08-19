@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="placeholder_assset_landscape">@drawable/placeholder_landscape</item>
+    <item type="drawable" name="placeholder_assset_portrait">@drawable/placeholder_portrait</item>
+    <item type="drawable" name="placeholder_banner">@drawable/placeholder_banner_phone</item>
+    <item type="drawable" name="placeholder_movie_detail_banner">@drawable/placeholder_detail_movie_phone</item>
+    <item type="drawable" name="placeholder_tv_series_detail_banner">@drawable/placeholder_detail_series_phone</item>
+</resources>

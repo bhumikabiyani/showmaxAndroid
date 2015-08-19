@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eevoskos.robotoviews.widget.RobotoTextView android:textSize="@dimen/item_tag_text_size" android:textColor="@color/color_text_item_tag_selector" android:background="@drawable/selector_bg_item_tag" android:paddingLeft="@dimen/item_tag_padding_horizontal" android:paddingTop="@dimen/item_tag_padding_vertical" android:paddingRight="@dimen/item_tag_padding_horizontal" android:paddingBottom="@dimen/item_tag_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/item_tag_margin" android:textAllCaps="true" roboto:typeface="medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:roboto="http://schemas.android.com/apk/res-auto" />

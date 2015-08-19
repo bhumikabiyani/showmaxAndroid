@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:top="@dimen/pc_seekbar_bg_height_vertical_offset" android:bottom="@dimen/pc_seekbar_bg_height_vertical_offset">
+        <shape>
+            <size android:height="@dimen/pc_seekbar_bg_height" />
+            <solid android:color="@color/icflix_bg_player_seeekbar" />
+        </shape>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <solid android:color="@color/icflix_bg_player_seeekbar" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <size android:height="@dimen/pc_seekbar_primary_progress_bg_height" />
+                <solid android:color="@color/theme_showmax_accent" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

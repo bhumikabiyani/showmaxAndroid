@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.showmax.app" platformBuildVersionCode="22" platformBuildVersionName="5.1.1-1819727">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:logo="@drawable/logo" android:name="com.showmax.app.ShowMaxApp" android:theme="@style/Theme.ShowMax">
+        <meta-data android:name="com.google.android.gms.analytics.globalConfigResource" android:resource="@xml/global_tracker"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:exported="true" android:label="@string/app_name" android:name="com.showmax.app.ui.ActivitySplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="icflix"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.showmax.app.ui.ActivityTutorial" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.showmax.app.ui.ActivityMain" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.showmax.app.ui.ActivityAssetList" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.showmax.app.ui.ActivitySeeAll" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.showmax.app.ui.ActivityAssetDetail" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.showmax.app.ui.ActivityTvSeriesDetail" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.showmax.app.ui.ActivitySearch" android:windowSoftInputMode="stateAlwaysVisible|adjustPan"/>
+        <activity android:name="com.showmax.app.ui.ActivityMyFlix" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.showmax.app.ui.ActivityAuthentication"/>
+        <activity android:name="com.showmax.app.ui.ActivityMyAccount"/>
+        <activity android:name="com.showmax.app.ui.ActivityPurchaseAsset"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.showmax.app.ui.ActivityPlayer" android:screenOrientation="sensorLandscape" android:theme="@style/FullscreenPlayer"/>
+        <activity android:name="com.showmax.app.ui.ActivityChat"/>
+        <activity android:name="net.hockeyapp.android.UpdateActivity"/>
+    </application>
+</manifest>
